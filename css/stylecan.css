@@ -1,0 +1,12 @@
+.form {
+    width: 50%;
+    margin: 60px auto;
+    height:310px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 21px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+.button_path{
+    margin: -20px 0 40px 0;
+    padding: 10px;
+}

@@ -1,0 +1,338 @@
+/* @media screen and (max-width: 1247px) {
+
+    .blok_banner {
+        position: absolute;
+        top: 141px;
+        left: 216px;
+        z-index: 10;
+    }
+
+    .text_path {
+        width: 336px;
+        height: 170px;
+    }
+
+    .text_path h1 {
+        font-size: 22px;
+        line-height: 50px;
+        padding: 30px;
+    }
+
+    .red_rectangle {
+        width: 110px;
+        height: 80px;
+        top: -5px;
+        left: -5px;
+    }
+
+    .icon_path svg {
+        max-height: 29px;
+        max-width: 28px;
+        padding: 7px 0;
+    }
+
+    .red_rectangle2 {
+        width: 110px;
+        bottom: -5px;
+        right: -5px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        height: 40px;
+    }
+
+    .blok_banner {
+        position: absolute;
+        top: 120px;
+        left: 156px;
+        z-index: 10;
+    }
+
+    .text_path {
+        width: 300px;
+        height: 140px;
+    }
+
+    .text_path h1 {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .icon_path svg {
+        max-height: 25px;
+        max-width: 23px;
+        padding: 10px 0;
+    }
+
+    .red_rectangle {
+        width: 100px;
+        height: 71px;
+        top: -5px;
+        left: -5px;
+    }
+
+    .red_rectangle2 {
+        width: 100px;
+        bottom: -5px;
+        right: -5px;
+        height: 71px;
+    }
+
+    .white_button {
+        width: 40px;
+        height: 30px;
+    }
+
+    .red_button {
+        width: 40px;
+        height: 30px;
+    }
+
+    .button_banner {
+        position: absolute;
+        bottom: 25px;
+        right: -42px;
+    }
+
+    .gmail {
+        font-size: 10px;
+
+
+    }
+} */
+
+@media screen and (max-width: 768px) {
+
+
+    .form {
+        width: 684px;
+        height: 164px;
+        flex-wrap: wrap;
+        top: -55px;
+        padding-left: 30px;
+    }
+
+    input[type='text'] {
+        font-size: 14px;
+        padding-left: 55px;
+        margin: 0 5px 0 5px;
+        width: 277px;
+        height: 40px;
+    }
+
+    .wrapper {
+        left: 0;
+        width: 768px;
+    }
+
+    .rectangle2 {
+        border-radius: 0;
+        left: 0 !important;
+        width: 768px;
+    }
+
+    .list_rectangle {
+        margin-left: 165px;
+    }
+
+    .fz-48 {
+        text-align: center;
+    }
+
+    .fz-18 {
+        text-align: center;
+    }
+
+    .txt-app {
+        margin-left: 50px;
+    }
+
+    .bar_bottom h1 {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .form_header p {
+        font-size: 14px !important;
+    }
+
+    .select {
+        position: relative;
+        display: flex;
+        width: 75%;
+    }
+
+    .rectangle1 {
+        width: 710px;
+        height: 300px;
+        position: absolute;
+    }
+
+    .marker {
+        background-position: 3% 50%;
+    }
+
+    #date {
+        background-position: 5% 50%;
+        margin-right: 10px;
+    }
+
+    .button_submit {
+        width: 280px;
+        background-size: 20%;
+        height: 44px;
+        margin-left: 5px;
+        border-radius: 30px;
+        right: 30px;
+        bottom: 19px;
+    }
+
+    .container_phone {
+        flex-direction: column-reverse;
+        height: 1201px;
+    }
+
+    .banner_left {
+        width: 235px;
+        height: 530px;
+    }
+
+    .banner_right {
+        width: 508px;
+        height: 530px;
+    }
+
+
+    .blok_banner {
+        position: absolute;
+        top: 168px !important;
+        left: 124px !important;
+    }
+
+    .text_path {
+        width: 300px;
+        height: 178px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .text_path h1 {
+        padding: 16px;
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+
+    .nav-bar_contacts {
+        font-size: 14px !important;
+        left: 30px;
+        position: relative;
+    }
+
+    .blok_body {
+        width: 326px;
+        height: 180px;
+    }
+
+    .txt_block {
+        bottom: -125px;
+    }
+
+    .container_blocks {
+        width: 685px;
+        flex-wrap: wrap;
+        height: 420px;
+    }
+
+    .blok_body {
+        margin-left: 15px;
+    }
+
+    .body_text h1 {
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    .white_button {
+        width: 30px;
+        height: 20px;
+    }
+
+    .button_banner {
+        position: absolute;
+        bottom: 120px;
+        right: 0px;
+    }
+
+    .red_button {
+        width: 30px;
+        height: 20px;
+    }
+
+    .phone {
+        position: absolute;
+        height: 0;
+    }
+
+    .phone img {
+        width: 430px;
+        height: auto;
+        top: -70px;
+        position: relative;
+    }
+
+    .phone_block {
+        position: relative;
+        display: block;
+        top: -100px;
+        height: 400px;
+    }
+
+    .button_div a {
+        width: 126px;
+        height: 33px;
+        border-radius: 20px;
+        background-color: #c43139;
+        border: 0;
+        margin: 0 15px;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .company h2 {
+        font-size: 10px;
+        line-height: 35px;
+    }
+
+    .icon_path svg {
+        max-height: 15px;
+        max-width: 19px;
+        padding: 8px 0;
+    }
+
+    footer {
+        top: 130px;
+
+    }
+
+    .d-block {
+        overflow: hidden;
+    }
+
+    .ellips {
+        top: -22%;
+        left: -33%;
+    }
+}

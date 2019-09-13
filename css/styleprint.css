@@ -1,0 +1,24 @@
+.form_header{
+
+}
+.form {
+    width: 50%;
+    margin: 36px auto;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 21px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+.form form {
+    padding: 20px;}
+.button_path{
+    margin: -20px 0 40px 0;
+    padding: 10px;
+}
+.form p {
+    font-size: 18px;
+    line-height: 46px;
+    color: #191919;
+
+    font-weight: 500;
+}
