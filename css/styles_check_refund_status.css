@@ -9,6 +9,10 @@ a {
     color: #191919;
 }
 
+span {
+    color: #c43139;
+}
+
 span a {
     color: #c43139;
 }
@@ -137,7 +141,7 @@ span a {
 .icon_path {
     position: absolute;
     top: -50px;
-    left: 150px;
+    left: 110px;
 }
 
 .banner_blok {
