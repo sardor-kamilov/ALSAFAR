@@ -1,6 +1,6 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Index.html !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 body {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy' !important;
 }
 
 a {
@@ -817,7 +817,18 @@ footer {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Cancel_Booking.html !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* FORM */
+.text-wrap {
+    text-align: center;
+    margin: 40px;
 
+}
+
+.text-wrap h1,p {
+    font-weight: 700!important;
+}
+.text-wrap p {
+    font-size: 18px;
+}
 .button-red {
     background: #c43139;
     height: 50px;
@@ -846,11 +857,11 @@ footer {
 .form-cancel {
     height: 330px;
     width: 770px;
-    border: 1px solid #cecece;
-    box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     padding-top: 50px;
     margin: 0 auto;
+    border-radius: 25px;
 }
 
 .form-group input {
