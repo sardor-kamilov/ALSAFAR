@@ -33,7 +33,7 @@ span a {
     position: relative;
     width: 750px !important;
     height: 680px;
-    background-image: url(/img/1111.png);
+    background-image: url(../img/1111.png);
     background-size: cover;
 }
 
@@ -107,6 +107,8 @@ span a {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    transition: background-color 0.3s;
+
 }
 
 .button-hover:hover {
@@ -139,7 +141,8 @@ span a {
 
 .socials li i {
     font-size: 25px;
-    color: #3b3a3a
+    color: #3b3a3a;
+    transition: color 0.2s;
 }
 
 .socials li i:hover {
@@ -403,7 +406,7 @@ input[type='text'] {
 }
 
 .marker {
-    background-image: url(/img/marker.png);
+    background-image: url(../img/marker.png);
     background-position: 10% 50%;
     background-repeat: no-repeat;
 }
@@ -416,7 +419,7 @@ input[type='text'] {
 }
 
 #date {
-    background-image: url(/img/date.png);
+    background-image: url(../img/date.png);
     background-position: 10% 50%;
     background-repeat: no-repeat;
 }
@@ -426,6 +429,7 @@ input[type='text'] {
     height: 117px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    transition: box-shadow 0.1s;
     background-color: #c43139;
     border: 0px;
     font-size: 16px;
@@ -434,7 +438,7 @@ input[type='text'] {
     font-weight: 600;
     text-align: center;
     z-index: 10;
-    background-image: url(/img/magnifier.png);
+    background-image: url(../img/magnifier.png);
     background-position: 95% 90%;
     background-repeat: no-repeat;
     position: absolute;
@@ -597,49 +601,49 @@ select {
 }
 
 .blok_body:first-child {
-    background-image: url(/img/printer.png);
+    background-image: url(../img/printer.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:first-child:hover {
-    background-image: url(/img/printer-red.png);
+    background-image: url(../img/printer-red.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(2) {
-    background-image: url(/img/ticket.png);
+    background-image: url(../img/ticket.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(2):hover {
-    background-image: url(/img/ticket-red.png);
+    background-image: url(../img/ticket-red.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(3) {
-    background-image: url(/img/payment-method.png);
+    background-image: url(../img/payment-method.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(3):hover {
-    background-image: url(/img/payment-method-red.png);
+    background-image: url(../img/payment-method-red.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(4) {
-    background-image: url(/img/contract.png);
+    background-image: url(../img/contract.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
 .blok_body:nth-child(4):hover {
-    background-image: url(/img/contract-red.png);
+    background-image: url(../img/contract-red.png);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
@@ -767,7 +771,7 @@ select {
 }
 
 .list_rectangle {
-    list-style-image: url(/img/verified\ copy.png);
+    list-style-image: url(../img/verified\ copy.png);
     display: flex;
     flex-direction: column;
     align-items: start;

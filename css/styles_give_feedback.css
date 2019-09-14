@@ -39,7 +39,7 @@ span a {
     position: relative;
     width: 750px !important;
     height: 680px;
-    background-image: url(/img/1111.png);
+    background-image: url(../img/1111.png);
     background-size: cover;
 }
 
@@ -108,7 +108,7 @@ span a {
     border-radius: 20px;
     border: 0;
     margin-left: 10px;
-    font-weight: 700;
+    font-weight: 500;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
