@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Print</title>
+    <title>Print Tickets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/styleprint.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles_print_tickets.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+    <!--  <link rel="stylesheet" href="/css/mediaqueries.css"> -->
 </head>
+
 <body>
     <header>
         <div class="banner">
@@ -74,48 +79,85 @@
             </div>
         </div>
     </header>
-<article>
-    <div>
-        <div class="form_header">
-            <h1><span>View / Print</span> Your E-Ticket</h1>
-            <p>Now Print your E-Ticket / E-voucher Instantly! Simply enter you</p>
-        </div>
-        <div class="form">
-            <div class="button_path">
-                <button class="button_active">Print</button>
-                <button class="button_no_active">SMS</button>
-                <button class="button_no_active" style="border-radius: 0 30px 30px 0">Email</button>
+    <!-- form -->
+    <section>
+        <!--head text -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-wrap">
+                    <h1>
+                        <span> View/Print </span>
+                        Your E-Ticket
+                    </h1>
+                    <p>
+                        Now Print your E-Ticket / E-voucher Instantly! Simply enter your Reference No
+                    </p>
+                </div>
             </div>
-
-            <form action="">
-                <input type="text" placeholder="Please enter Alsafar Reference No">
-                <input type="text" placeholder="Mobile Number ">
-                <input type="text" placeholder="Password ">
-
+        </div>
+        <!-- form body -->
+        <div class="container">
+            <form class="form-cancel">
+                <div class="container txt-center mb-30">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn-clear btn-dangerous button-hover">Print</button>
+                                <button type="button" class="btn-clear btn-dangerous button-hover">SMS</button>
+                                <button type="button" class="btn-clear btn-dangerous button-hover">E-mail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" 
+                        placeholder="  Please enter Alsafar Reference No">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" 
+                        placeholder="  Mobile Number">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control"
+                        placeholder="  Email Id">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"><button type="submit" class="button-clear button-hover">Now</button>
+                        </div>
+                        <div class="col-md-3"><button type="clear" class="button-clear button-hover">Clear</button>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
             </form>
-            <div class="button_path">
-                <button class="button_submit">Now</button>
-                <button class="button_cancel">Clear</button>
-
-            </div>
         </div>
-    </div>
-</article>
-<article>
+    </section>
+    <footer>
         <div class="bar_bottom">
-            <div class="bar_bottom_div">
-                <h1><a href="">About Us</a></h1>
-                <h1><a href="">Contact Us</a></h1>
-                <h1><a href="">Terms and Conditions</a></h1>
-                <h1><a href="">Privacy Policy</a></h1>
-                <h1><a href="">Payment Methods</a></h1>
-            </div>
+            <ul class="footer_menu">
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="terms_conditions.html">Terms and Conditions</a> </li>
+                <li><a href="#">Privacy Policy</a> </li>
+                <li><a href="#">Payment Methods</a> </li>
+            </ul>
         </div>
-</article>
-<article>   
-        <div class="company">   
-                <h1>© 2019 Alsafar</h1>
+        <div class="company">
+            <h1>© 2019 Alsafar</h1>
         </div>
-</article>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
