@@ -107,6 +107,8 @@ span a {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    transition: background-color 0.3s;
+
 }
 
 .button-hover:hover {
@@ -139,7 +141,8 @@ span a {
 
 .socials li i {
     font-size: 25px;
-    color: #3b3a3a
+    color: #3b3a3a;
+    transition: color 0.2s;
 }
 
 .socials li i:hover {
@@ -421,6 +424,7 @@ input[type='text'] {
     height: 117px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    transition: box-shadow 0.1s;
     background-color: #c43139;
     border: 0px;
     font-size: 16px;
