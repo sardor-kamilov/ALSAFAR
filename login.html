@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>LOgin</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/stylelogin.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles_login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
 </head>
+
 <body>
     <header>
         <div class="banner">
@@ -74,7 +79,57 @@
             </div>
         </div>
     </header>
-<article>
+
+    <!-- form -->
+    <section>
+        <!--head text -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-wrap">
+                    <h1>Login To<span> Alsafar </span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- form body -->
+        <div class="container">
+            <form class="form-cancel">
+                <div class="form-group">
+                    <a href="#"><label for="exampleInputEmail1">Alsafar ID</label></a>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="  Email ID or Mobile">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Password">
+                    <a href="#"><label for="exampleInputPasswrd1">Forgot Password?</label></a>
+                </div>
+                <div class="container mar-top-30">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"><button type="submit" class="button-clear button-hover">LOGIN</button>
+                        </div>
+                        <div class="col-md-3"><button type="submit" class="button-clear button-hover">Clear</button>
+                        </div>
+                        <div class="col-md-3"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 txt-center mar-top-30">
+                                    <label>You Don't Have An Account ???
+                                        <span>
+                                            <a href="register.html">
+                                                Sing up now
+                                            </a>
+                                        </span>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- <article>
     <div>
         <div class="form_header">
             <h1>Login To <span>Alsafar</span></h1>
@@ -94,22 +149,31 @@
             </div>
         </div>
     </div>
-</article>
-<article>
+</article> -->
+    <footer>
         <div class="bar_bottom">
-            <div class="bar_bottom_div">
-                <h1><a href="">About Us</a></h1>
-                <h1><a href="">Contact Us</a></h1>
-                <h1><a href="">Terms and Conditions</a></h1>
-                <h1><a href="">Privacy Policy</a></h1>
-                <h1><a href="">Payment Methods</a></h1>
-            </div>
+            <ul class="footer_menu">
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="terms_conditions.html">Terms and Conditions</a> </li>
+                <li><a href="#">Privacy Policy</a> </li>
+                <li><a href="#">Payment Methods</a> </li>
+            </ul>
         </div>
-</article>
-<article>   
-        <div class="company">   
-                <h1>© 2019 Alsafar</h1>
+        <div class="company">
+            <h1>© 2019 Alsafar</h1>
         </div>
-</article>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="js/script.js"></script>
 </body>
+
 </html>
