@@ -20,7 +20,6 @@ span a {
     padding: 0;
     height: all;
     overflow: hidden;
-
 }
 
 .flex_div {
@@ -38,10 +37,6 @@ span a {
     background-size: cover;
 }
 
-/* .banner_left img {
-    height: 680px;
-}
- */
 .banner_right {
     width: 1170px;
 }
@@ -53,15 +48,6 @@ span a {
     z-index: 10;
 }
 
-/* .carousel .slide{
-    width: 1177px;
-    height: 680px;
-}
-.carousel-item{
-    width: 1177px;
-    height: 680px;
-    overflow: hidden;
-} */
 .nav-bar {
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +75,7 @@ span a {
 }
 
 .gmail {
-    font-size: 14px !important;
+    font-size: 16px !important;
 }
 
 .nav-bar a {
@@ -98,26 +84,39 @@ span a {
     text-align: center;
 }
 
+
+
 .nav-bar_contacts {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-
+.nav-bar_contacts a:hover {
+    text-decoration: none;
+    color: #c43139;
+}
 .login_btn {
     width: 150px;
     display: flex;
     height: 40px;
     border-radius: 20px;
-    background-color: #c43139;
-    box-shadow: 1px 2px 10px 5px rgba(193, 2, 2, 0.5);
     border: 0;
-    margin: 0 50px;
-    font-weight: 700;
+    margin-left: 10px;
+    font-weight: 500;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+}
+
+.button-hover:hover {
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #c43139;
+    box-shadow: 1px 2px 10px 5px rgba(193, 2, 2, 0.5);
 }
 
 .icon {
@@ -148,9 +147,6 @@ span a {
 }
 
 .icon_path {
-    /*     display: flex;
-    justify-content: space-around;
-    flex-direction: column; */
     position: absolute;
     top: -50px;
     left: 150px;
@@ -161,8 +157,6 @@ span a {
     bottom: 150px;
     right: -170px;
 }
-
-
 
 .flex-parent {
     display: flex;
@@ -289,7 +283,6 @@ button:hover {
     font-size: 16px;
     line-height: 28px;
     color: #666666;
-
 }
 
 ul {
@@ -319,7 +312,6 @@ span {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
-
 }
 
 .footer_menu li {
@@ -352,7 +344,6 @@ a {
 }
 
 .company h1 {
-
     margin: 0;
     font-size: 14px;
     line-height: 46px;
@@ -363,7 +354,6 @@ a {
 
 .form_header {
     text-align: center;
-
 }
 
 .form_header p {
@@ -405,8 +395,6 @@ input[type='text'] {
     border: 1px solid #dcdcdc;
     line-height: 46px;
     color: #8c8c8c;
-
-
 }
 
 .marker {
@@ -421,15 +409,6 @@ input[type='text'] {
     display: inline;
     box-shadow: #e43139 0px 0px 40px 2px;
 }
-
-/* 
-.fa-arrows-alt-h:hover {
-    color: #c43139;
-    box-shadow: #e43139 0px 0px 40px 5px;
-    background: none;
-    background-blend-mode: darken;
-} */
-
 
 #date {
     background-image: url(/img/date.png);
@@ -488,7 +467,6 @@ select {
     color: #8c8c8c;
     border-radius: 30px !important;
     box-sizing: border-box !important;
-
 }
 
 label {
@@ -512,7 +490,6 @@ select::-ms-expand {
     overflow: hidden;
     border-radius: .25em;
     text-align: center;
-
 }
 
 input[type="radio"] {
@@ -531,9 +508,6 @@ input[type="radio"] {
     background-color: #e7e6e7;
     border-radius: 50%;
     vertical-align: bottom;
-
-
-
 }
 
 /* appearance for checked radiobutton */
@@ -546,7 +520,6 @@ select {
     padding: 0 .5em;
     color: #8c8c8c;
     cursor: pointer;
-
 }
 
 /* Arrow */
@@ -581,7 +554,6 @@ select {
     font-size: 14px;
     line-height: 46px;
     color: #ffffff;
-
     font-weight: 600;
     text-align: center;
 }
@@ -613,7 +585,6 @@ select {
     text-align: center;
     position: relative;
     overflow: hidden;
-
 }
 
 .blok_body:hover {
@@ -713,7 +684,6 @@ select {
     position: absolute;
     left: 170px;
     top: 70px;
-    /* width: 620px; */
     height: 640px;
     z-index: 15;
 }
@@ -750,7 +720,6 @@ select {
     width: 50%;
     margin: 0 auto;
     text-align: left;
-
 }
 
 .txt-app {
@@ -804,15 +773,7 @@ select {
     width: 20px;
     height: 20px;
     padding: 0 10px 0 0;
-
 }
-
-/* 
-footer {
-    position: relative;
-    top: 60px;
-}
- */
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Cancel_Booking.html !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -820,15 +781,17 @@ footer {
 .text-wrap {
     text-align: center;
     margin: 40px;
-
 }
 
-.text-wrap h1,p {
-    font-weight: 700!important;
+.text-wrap h1,
+p {
+    font-weight: 700 !important;
 }
+
 .text-wrap p {
     font-size: 18px;
 }
+
 .button-red {
     background: #c43139;
     height: 50px;
