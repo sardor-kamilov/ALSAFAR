@@ -1110,6 +1110,10 @@ label {
         height: 530px;
     }
 
+    .wrapper {
+        width: 500px;
+    }
+
     .button_banner {
         position: absolute;
         bottom: 120px;
@@ -1168,6 +1172,7 @@ label {
         font-size: 14px;
     }
 
+}
 
 /* ++++++++++++++++  Media for 768px- end +++++++++++++ */
 

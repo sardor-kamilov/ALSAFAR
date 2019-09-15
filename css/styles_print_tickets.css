@@ -505,5 +505,28 @@ p {
     }
 
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
+    /*------------------------------BODY----------------------*/
 
+    .form-cancel {
+        width: 666px;
+    }
+
+    .text-wrap {
+        margin: 0;
+        padding: 35px;
+    }
+
+    .btn-clear {
+        width: 170px;
+        font-size: 18px;
+
+    }
+
+    .form-group input {
+        width: 510px;
+        margin: 0 auto 20px auto;
+    }
+
+
+    
 }
