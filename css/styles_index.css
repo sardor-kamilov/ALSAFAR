@@ -279,8 +279,360 @@ button:hover {
 
 
 
+/* +++++++++++++++++++++++++++++++++++++++++   BODY-start  +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
+/* form-start */
+.form_header {
+    text-align: center;
+}
+
+.form_header p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #191919;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form {
+    top: -85px;
+    width: 63%;
+    margin: 20px auto;
+    height: 116px;
+    border-radius: 26px;
+    box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    align-items: center;
+    padding-left: 10px;
+    z-index: 10;
+}
+
+.form input {
+    width: 270px;
+    height: 60px;
+    text-align: left;
+}
+
+input[type='text'] {
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 65px;
+    margin: 0 20px 0 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    line-height: 46px;
+    color: #8c8c8c;
+}
+
+.marker {
+    background-image: url(../img/marker.png);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+}
+
+.fa-arrows-alt-h {
+    font-size: 24px;
+    color: #c43139;
+    display: inline;
+    box-shadow: #e43139 0px 0px 40px 2px;
+}
+
+#date {
+    background-image: url(../img/date.png);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+}
+
+.button_submit {
+    width: 200px;
+    height: 117px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: box-shadow 0.1s;
+    background-color: #c43139;
+    border: 0px;
+    font-size: 16px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    z-index: 10;
+    background-image: url(../img/magnifier.png);
+    background-position: 95% 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.button_submit:hover {
+    box-shadow: 0 0 11px 0 #c43139;
+}
+
+.button_cancel {
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+}
+
+.button_path {
+    text-align: center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: none;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding-left: 40px !important;
+    line-height: 46px;
+    color: #8c8c8c;
+    border-radius: 30px !important;
+    box-sizing: border-box !important;
+}
+
+label {
+    text-align: left !important;
+}
+
+/* form-end */
+
+
+
+/* container of blocks-start */
+
+.container_blocks {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.blok_body {
+    width: 20%;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.blok_body:hover {
+    text-decoration: none;
+}
+
+.blok_body:first-child {
+    background-image: url(../img/printer.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:first-child:hover {
+    background-image: url(../img/printer-red.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(2) {
+    background-image: url(../img/ticket.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(2):hover {
+    background-image: url(../img/ticket-red.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(3) {
+    background-image: url(../img/payment-method.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(3):hover {
+    background-image: url(../img/payment-method-red.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(4) {
+    background-image: url(../img/contract.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(4):hover {
+    background-image: url(../img/contract-red.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+.blok_body:nth-child(1):hover>.ellips {
+    display: block;
+}
+
+.blok_body:nth-child(2):hover>.ellips {
+    display: block;
+}
+
+.blok_body:nth-child(3):hover>.ellips {
+    display: block;
+}
+
+.blok_body:nth-child(4):hover>.ellips {
+    display: block;
+}
+
+.txt_block {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3b3a3a;
+    position: relative;
+    bottom: -150px
+}
+
+.ellips {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #c43139;
+    position: absolute;
+    top: -25%;
+    left: -25%;
+    display: none;
+}
+/* container of blocks-end */
+
+
+
+
+
+
+/* Container_phone start  */
+
+
+
+.container_phone {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.phone {
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    height: 640px;
+    z-index: 15;
+}
+
+.rectangle1 {
+    width: 950px;
+    height: 75%;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+
+.wrapper {
+    position: relative;
+    height: 860px;
+    width: 1155px;
+    left: 20%;
+}
+
+.rectangle2 {
+    width: 100%;
+    height: 800px;
+    border-radius: 60px 0 0 60px;
+    background-color: #f6f6f6;
+    z-index: -5;
+    padding: 30px 60px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+}
+
+.rectangle2_in {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.txt-app {
+    width: 570px;
+    margin-left: 220px;
+}
+
+.stores {
+    margin-top: 50px;
+}
+
+.store {
+    width: 260px;
+    height: 90px;
+    margin-right: 13px;
+}
+
+.red-txt {
+    color: #e43139 !important;
+}
+
+.fz-18 {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.fz-48 {
+    font-size: 48px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.checked {
+    width: 30px;
+    height: 30px;
+    background-color: #c43139;
+    border-radius: 50%;
+
+}
+
+.list_rectangle {
+    list-style-image: url(../img/verified\ copy.png);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 40px;
+}
+
+.list_regtangle img {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px 0 0;
+}
+/* Container_phone end */
+
+/* +++++++++++++++++++++++++++++++++++++++++   BODY-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
@@ -290,7 +642,6 @@ button:hover {
 
 
 /* +++++++++++++++++++++++++++++++++++++++++   FOOTER-start  +++++++++++++++++++++++++++++++++++++++++++++++++ */
-
 
 .company h2 {
     font-size: 12px;
