@@ -397,3 +397,76 @@ p {
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++   FOOTER-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ++++++++++++++++  Media for 768px- start +++++++++++++ */
+
+@media screen and (max-width: 768px) {
+
+    .banner_left {
+        width: 235px;
+        height: 530px;
+    }
+
+    .button_banner {
+        position: absolute;
+        bottom: 120px;
+        right: 0px;
+    }
+
+    .white_button {
+        width: 30px;
+        height: 20px;
+    }
+
+    .red_button {
+        width: 30px;
+        height: 20px;
+    }
+
+    .banner_right {
+        width: 508px;
+        height: 530px;
+    }
+
+    .d-block {
+        overflow: hidden;
+    }
+
+    .blok_banner {
+        position: absolute;
+        top: 168px !important;
+        left: 124px !important;
+    }
+
+    .text_path {
+        width: 300px;
+        height: 178px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .text_path h1 {
+        padding: 16px;
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .logodiv {
+        margin-right: 30px;
+    }
+
+    .nav-bar_contacts {
+        font-size: 16px !important;
+        left: -15px;
+        position: relative;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+}
+    /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
