@@ -974,6 +974,124 @@ label {
 
 
 
+    .wrapper {
+        left: 0;
+        width: 768px;
+    }
+    
+    .rectangle2 {
+        border-radius: 0;
+        left: 0 !important;
+        width: 768px;
+    }
+    
+    .list_rectangle {
+        margin-left: 130px;
+    }
+    
+    .fz-48 {
+        text-align: center;
+    }
+    
+    .fz-18 {
+        text-align: center;
+    }
+    
+    .txt-app {
+        margin-left: 50px;
+    }
+    
+    .bar_bottom h1 {
+        font-size: 13px;
+    }
+    
+    label {
+        font-size: 13px;
+    }
+    
+    
+    .select {
+        position: relative;
+        display: flex;
+        width: 75%;
+    }
+    
+    .rectangle1 {
+        width: 710px;
+        height: 300px;
+        position: absolute;
+    }
+    
+    .container_phone {
+        flex-direction: column-reverse;
+        height: 1201px;
+    }
+    
+    .blok_body {
+        width: 326px;
+        height: 180px;
+    }
+    
+    .txt_block {
+        bottom: -125px;
+    }
+    
+    .container_blocks {
+        width: 685px;
+        flex-wrap: wrap;
+        height: 420px;
+    }
+    
+    .blok_body {
+        margin-left: 15px;
+    }
+    
+    .phone {
+        position: absolute;
+        height: 0;
+    }
+    
+    .phone img {
+        width: 430px;
+        height: auto;
+        top: -70px;
+        position: relative;
+    }
+    
+    .phone_block {
+        position: relative;
+        display: block;
+        top: -100px;
+        height: 400px;
+    }
+    
+    .button_div a {
+        width: 126px;
+        height: 33px;
+        border-radius: 20px;
+        background-color: #c43139;
+        border: 0;
+        margin: 0 15px;
+        font-size: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .company h2 {
+        font-size: 10px;
+        line-height: 35px;
+    }
+    
+    footer {
+        top: 130px;
+    
+    }
+    
+    .ellips {
+        top: -22%;
+        left: -33%;
+    }
 
 
 
