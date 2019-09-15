@@ -338,7 +338,7 @@ p {
 .form-group {
     margin-left: 80px;
     text-align: center;
-    margin-bottom: 60px!important;
+    margin-bottom: 60px !important;
 }
 
 .form-group .row .col-md-2 {
@@ -585,5 +585,16 @@ label {
     .nav-bar a {
         font-size: 14px;
     }
-}
+
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
+
+
+    /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
+
+    .footer_menu {
+        padding-left: 0;
+        width: 90%;
+    }
+
+    /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
+}

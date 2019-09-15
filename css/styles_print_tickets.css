@@ -496,7 +496,7 @@ p {
 
     .nav-bar_contacts {
         font-size: 16px !important;
-        left: 30px;
+        left: -15px;
         position: relative;
     }
 
@@ -505,5 +505,15 @@ p {
     }
 
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
+
+
+    /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
+
+    .footer_menu {
+        padding-left: 0;
+        width: 90%;
+    }
+
+    /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
 
 }
