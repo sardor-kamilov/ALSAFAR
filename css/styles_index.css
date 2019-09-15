@@ -99,6 +99,7 @@ span a {
     text-decoration: none;
     color: #c43139;
 }
+
 .login_btn {
     width: 150px;
     display: flex;
@@ -112,6 +113,7 @@ span a {
     text-transform: uppercase;
     transition: background-color 0.15s;
 }
+
 .button-hover:hover {
     text-decoration: none;
     font-weight: 700;
@@ -119,6 +121,7 @@ span a {
     background-color: #c43139;
     box-shadow: 1px 2px 10px 5px rgba(193, 2, 2, 0.5);
 }
+
 .icon {
     display: flex;
     justify-content: flex-start;
@@ -519,6 +522,7 @@ label {
     left: -25%;
     display: none;
 }
+
 /* container of blocks-end */
 
 
@@ -630,6 +634,7 @@ label {
     height: 20px;
     padding: 0 10px 0 0;
 }
+
 /* Container_phone end */
 
 /* +++++++++++++++++++++++++++++++++++++++++   BODY-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -693,3 +698,133 @@ label {
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++   FOOTER-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* +++++++++++++++++++++  Mediaqueries-start  ++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++  Media for 1125px- start +++++++++++++ */
+
+@media screen and (max-width: 1125px) {
+    .logodiv {
+        margin-right: 330px;
+    }
+
+    .blok_banner {
+        top: 160px;
+        left: 115px;
+    }
+
+    .icon {
+        top: 51px;
+        left: -200px;
+    }
+
+    .socials li i {
+        font-size: 20px;
+    }
+
+    .socials li {
+        margin-bottom: 15px;
+    }
+
+    .flex-parent {
+        top: -8px;
+    }
+
+    .text_path h1 {
+        padding: 20px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .text_path {
+        width: 400px;
+        height: 180px;
+    }
+
+    .banner_left {
+        width: 300px !important;
+        height: 500px;
+        background-size: 590px;
+        background-repeat: no-repeat;
+    }
+
+    .banner_right {
+        width: 825px;
+    }
+
+    .container_blocks {
+        width: 100%;
+    }
+
+    .d-block {
+        width: 960px;
+    }
+
+    .wrapper {
+        left: 0;
+        height: 730px;
+    }
+
+    .rectangle1 {
+        height: 500px;
+        left: -200px;
+    }
+
+    .phone {
+        top: 55px;
+        left: -40px;
+    }
+
+    .phone img {
+        width: 600px;
+    }
+
+    .rectangle2 {
+        width: 75%;
+        height: 670px;
+    }
+
+    .txt-app {
+        width: 465px;
+        margin-left: 250px;
+    }
+
+    .store {
+        width: 200px;
+        height: 70px;
+    }
+
+    .form {
+        top: -75px;
+        width: 90%;
+    }
+
+    input[type='text'] {
+        height: 45px;
+    }
+
+    .form input {
+        width: 225px;
+    }
+
+    .button_submit {
+        width: 150px;
+    }
+
+    .footer_menu {
+        width: 100%;
+    }
+}
+
+/* ++++++++++++++++  Media for 1125px- end +++++++++++++ */
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++  Mediaqueries-end  ++++++++++++++++++++++++++ */
