@@ -112,7 +112,7 @@ span a {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    transition: background-color 0.2s;    
+    transition: background-color 0.2s;
 }
 
 .button-hover:hover {
@@ -349,10 +349,10 @@ p {
     border-radius: 30px;
     margin: 0 auto 35px auto;
     background: url("../img/arrow.png") no-repeat 100%;
-    appearance:none;
-	-webkit-appearance:none;
-	-moz-appearance:none;
-    -ms-appearance:none;   
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
     padding-left: 25px;
 }
 
@@ -497,7 +497,19 @@ p {
     .nav-bar a {
         font-size: 14px;
     }
-}
+
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
 
 
+
+
+
+    /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
+
+    .footer_menu {
+        padding-left: 0;
+        width: 90%;
+    }
+
+    /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
+}
