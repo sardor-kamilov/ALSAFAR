@@ -1,3 +1,5 @@
+/* +++++++++++++++++++++++++++++++++++++++++   HEADER-start  +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 body {
     font-family: 'Gilroy' !important;
 }
@@ -5,9 +7,16 @@ body {
 a {
     text-decoration: none;
     color: #191919;
-}span a {
+}
+
+span {
     color: #c43139;
 }
+
+span a {
+    color: #c43139;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -17,26 +26,35 @@ a {
     height: all;
     overflow: hidden;
 
-}.flex_div {
+}
+
+.flex_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}.banner_left {
+}
+
+.banner_left {
     z-index: 1;
     position: relative;
     width: 750px !important;
     height: 680px;
     background-image: url(../img/1111.png);
     background-size: cover;
-}.banner_right {
+}
+
+.banner_right {
     width: 1170px;
 }
+
 .blok_banner {
     position: absolute;
     top: 180px;
     left: 290px;
     z-index: 10;
-}.nav-bar {
+}
+
+.nav-bar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -45,7 +63,9 @@ a {
     left: 0;
     width: 100%;
 
-}.logodiv {
+}
+
+.logodiv {
     z-index: 1;
 }
 
@@ -90,10 +110,9 @@ a {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    transition: background-color 0.15s;
 }
 .button-hover:hover {
-    height: 40px;
-    width: 150px;
     text-decoration: none;
     font-weight: 700;
     color: #fff;
@@ -121,17 +140,16 @@ a {
 .socials li i {
     font-size: 25px;
     color: #3b3a3a
-}.socials li i:hover {
+}
+
+.socials li i:hover {
     color: #c43139;
 }
 
 .icon_path {
-    /*     display: flex;
-    justify-content: space-around;
-    flex-direction: column; */
     position: absolute;
     top: -50px;
-    left: 150px;
+    left: 110px;
 }
 
 .banner_blok {
@@ -152,7 +170,9 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-}.flex-child-edge {
+}
+
+.flex-child-edge {
     flex-grow: 0.5;
     height: 2px;
     background-color: #909090;
@@ -176,7 +196,9 @@ a {
     box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     position: relative;
-}.text_path h1 {
+}
+
+.text_path h1 {
     font-size: 42px;
     line-height: 54px;
     color: #191919;
@@ -204,7 +226,9 @@ a {
     bottom: -10px;
     right: -10px;
     z-index: -1;
-}.white_button {
+}
+
+.white_button {
     width: 50px !important;
     height: 40px !important;
     border-bottom-left-radius: 50% !important;
@@ -245,6 +269,8 @@ button:hover {
 }
 
 
+
+/* +++++++++++++++++++++++++++++++++++++++++   HEADER-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
