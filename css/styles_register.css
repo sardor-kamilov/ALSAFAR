@@ -598,3 +598,72 @@ label {
 
     /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
 }
+
+/*-----------------------640PX----------------------*/
+
+@media screen and (max-width: 640px) {
+
+    label {
+        width: 150px;
+    }
+    .container {
+        max-width: 100%;
+    }
+
+    .form-cancel {
+        width: 520px;
+        height: auto;
+        margin: 15 auto 80px auto;
+    }
+
+    .text-wrap {
+        margin: 0;
+        padding: 35px;
+    }
+
+    .form-group select {
+        width: 350px
+    }
+
+    .btn-clear {
+        width: 140px;
+        font-size: 18px;
+
+    }
+
+    .form-group {
+        margin-left: 35px;
+    }
+    
+    .form-group input {
+        width: 350px;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer_menu {
+        padding-left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .bar_bottom {
+        height: 190px;
+        padding-top: 8px;
+    }
+
+    .footer_menu li {
+        padding: 8px 0px 0px 0px;
+    }
+
+    .button-clear {
+        width: 100%;
+    }
+
+    .login_btn {
+        width: 100%; /*-------------DELETE THIS THIS ---------------*/
+    }
+
+
+}
