@@ -519,13 +519,14 @@ p {
 
 @media screen and (max-width: 640px) {
 
-
     /* +++++++++++++++++++++++++++++ HEADER Start +++++++++++++++++++++++++++++++++ */
     .banner_left {
         width: 235px;
         height: 530px;
     }
-
+    .logo {
+        height: 55px;
+    }
     .wrapper {
         width: 500px;
     }
@@ -580,12 +581,14 @@ p {
 
     .nav-bar_contacts {
         font-size: 16px !important;
-        left: -15px;
+        left: 200px;
         position: relative;
     }
 
-    .nav-bar a {
+    .login_btn {
         font-size: 14px;
+        position: relative;
+        top: 60px
     }
 
     .icon {
@@ -598,6 +601,8 @@ p {
 
     /*+++++++++++++++++++++ Header-End +++++++++++++++++++++++*/
 
+    
+    /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     .container {
         max-width: 100%;
     }
