@@ -657,7 +657,7 @@ p {
         width: 100%;
         display: block;
         text-align: center;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .bar_bottom {
@@ -673,9 +673,7 @@ p {
         width: 100%;
     }
 
-/*     .login_btn {
-        width: 100%;
-    } */
+
 
 
 

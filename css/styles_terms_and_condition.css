@@ -518,7 +518,24 @@ button:hover {
     }
 
     /*+++++++++++++++++++++ Header-End +++++++++++++++++++++++*/
+    /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
+
+.footer_menu {
+    padding-left: 0;
+    height: 100%;
+    flex-direction: column;
 }
 
+.bar_bottom {
+    height: 100%;
+    padding: 20px 0;
+}
+
+.footer_menu li {
+    padding: 5px 0;
+}
+
+/*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
+}
 
 /* ++++++++++++++++  Media for 640px- End +++++++++++++ */
