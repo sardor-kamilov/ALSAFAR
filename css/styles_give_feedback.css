@@ -295,6 +295,9 @@ p {
     font-size: 18px;
 }
 
+.text-wrap {
+    padding: 50px;
+}
 .button-red {
     height: 50px;
     width: 185px;
