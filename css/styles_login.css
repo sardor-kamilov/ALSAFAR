@@ -426,7 +426,82 @@ label {
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++   FOOTER-end  +++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++  Mediaqueries-start  ++++++++++++++++++++++ */
 
+/* ++++++++++++++++  Media for 1125px- start +++++++++++++ */
+
+/*Эти медиа будут работать от 1000px до 1125px */
+
+@media (min-width: 1000px) and (max-width: 1130px) {
+
+    /* +++++++++++++++++++++++++++++++++++ Header Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    .logodiv {
+        margin-right: 330px;
+    }
+
+    .blok_banner {
+        top: 160px;
+        left: 115px;
+    }
+
+    .icon {
+        top: 51px;
+        left: -200px;
+    }
+
+    .socials li i {
+        font-size: 20px;
+    }
+
+    .socials li {
+        margin-bottom: 15px;
+    }
+
+    .flex-parent {
+        top: -8px;
+    }
+
+    .text_path h1 {
+        padding: 20px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .text_path {
+        width: 400px;
+        height: 180px;
+    }
+
+    .banner_left {
+        width: 300px !important;
+        height: 500px;
+        background-size: 590px;
+        background-repeat: no-repeat;
+    }
+
+    .banner_right {
+        width: 825px;
+    }
+
+    .d-block {
+        width: 960px;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++ Header End +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+    /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+    .text-wrap {
+        padding: 40px;
+        margin: 0px;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++ Body End+++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+}
 
 
 /* ++++++++++++++++  Media for 768px- start +++++++++++++ */
@@ -509,6 +584,7 @@ label {
 
     /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
 }
+
 /* ++++++++++++++++  Media for 640px- start +++++++++++++ */
 
 
@@ -519,9 +595,11 @@ label {
         width: 235px;
         height: 530px;
     }
+
     .logo {
         height: 55px;
     }
+
     .wrapper {
         width: 500px;
     }
@@ -596,7 +674,7 @@ label {
 
     /*+++++++++++++++++++++ Header-End +++++++++++++++++++++++*/
 
-    
+
     /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     .container {
         max-width: 100%;
@@ -645,9 +723,9 @@ label {
         width: 100%;
     }
 
-      /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
+    /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
 
-      .footer_menu {
+    .footer_menu {
         padding-left: 0;
         height: 100%;
         flex-direction: column;
