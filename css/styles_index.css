@@ -1137,7 +1137,7 @@ label {
     }
 
     .banner_right {
-        width: 508px;
+        width: 405px;
         height: 530px;
     }
 
@@ -1152,20 +1152,20 @@ label {
     }
 
     .text_path {
-        width: 300px;
-        height: 178px;
-        padding-top: 10px;
-        padding-left: 20px;
+        width: 240px;
+        height: 160px;
+        padding-top: 5px;
+        padding-left: 10px;
     }
 
     .text_path h1 {
         padding: 16px;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 41px;
     }
 
     .logodiv {
-        margin-right: 30px;
+        margin-right: 50px;
     }
 
     .nav-bar_contacts {
@@ -1178,13 +1178,140 @@ label {
         font-size: 14px;
     }
 
+    .icon {
+        top: 50px;
+    }
+
+    .login_btn {
+        width: 100px;
+    }
+
     /*+++++++++++++++++++++ Header-End +++++++++++++++++++++++*/
+
+
+
+
+    /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+    /* +++++++++++++++++++++++++++++++++++ Form Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+    .form {
+        width: 580px;
+        height: 164px;
+        flex-wrap: wrap;
+        top: -55px;
+        padding-left: 30px;
+    }
+
+    input[type='text'] {
+        font-size: 14px;
+        padding-left: 55px;
+        margin: 0 5px 0 5px;
+        width: 234px;
+        height: 40px;
+    }
+
+    .button_submit {
+        width: 235px;
+        background-size: 17%;
+        margin-left: 5px;
+        right: 18px;
+        bottom: 19px;
+        font-size: 14px;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++ Form End +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+    /* +++++++++++++++++++++++++++++++++++ Container_blocks Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    .container_blocks {
+        width: 580px;
+        flex-wrap: wrap;
+        height: 420px;
+    }
+
+    .blok_body {
+        margin-left: 5px;
+        width: 275px;
+        background-size: 17% 28%;
+    }
+
+    .txt_block {
+        bottom: -125px;
+    }
+
+    .ellips {
+        top: -22%;
+        left: -33%;
+    }
+
+
+    /* +++++++++++++++++++++++++++++++++++ Container_blocks End +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    .txt-app {
+        margin-left: -20px;
+    }
+
+    .rectangle1 {
+        width: 640px;
+    }
+
+    .rectangle2 {
+        border-radius: 0;
+        left: 0 !important;
+        width: 640px;
+    }
+
+    .wrapper {
+        width: 640px;
+    }
+
+    .phone {
+        left: 110px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
 
     .footer_menu {
         padding-left: 0;
-        width: 90%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .bar_bottom {
+        height: 100%;
+        padding: 20px 0;
+    }
+
+    .footer_menu li {
+        padding: 5px 0;
     }
 
     /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
