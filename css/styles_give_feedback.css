@@ -573,6 +573,63 @@ p {
 
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
 
+    /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    .container {
+        max-width: 100%;
+    }
+
+    .form-cancel {
+        width: 685px;
+        margin: 0 auto 70px auto;
+    }
+
+    .text-wrap {
+        padding: 35px;
+    }
+
+    .btn-clear {
+        width: 180px;
+        font-size: 18px;
+
+    }
+
+    .form-group {
+        margin-bottom: 2rem !important;
+    }
+
+    .form-group select {
+        width: 545px;
+    }
+
+    .form-group input {
+        width: 545px;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer_menu {
+        padding-left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .bar_bottom {
+        height: 190px;
+        padding-top: 8px;
+    }
+
+    .footer_menu li {
+        padding: 8px 0px 0px 0px;
+    }
+
+    .button-clear {
+        width: 100%;
+    }
+
+    
+
+
 
 
 
