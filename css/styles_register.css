@@ -670,5 +670,9 @@ label {
         width: 100%; /*-------------DELETE THIS THIS ---------------*/
     }
 
+    .container {
+        max-width: 610px !important;
+    }
+
 
 }
