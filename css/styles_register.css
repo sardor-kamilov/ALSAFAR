@@ -282,6 +282,7 @@ button:hover {
 /*+++++++++++++++++++++++++++++++++++++++++ FORM-start +++++++++++++++++++++++++++++++++++++++++*/
 .text-wrap {
     text-align: center;
+    padding: 35px;
 }
 
 .text-wrap h1,
@@ -661,6 +662,87 @@ label {
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
 
 
+
+    /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    .container {
+        max-width: 100%;
+    }
+
+    .form-cancel {
+        width: 650px;
+        height: auto;
+        padding: 60px 0px 50px 0;
+        margin-right: 40px;
+    }
+
+    .form-group .col-md-2 {
+        font-size: 14px;
+        padding: 0px !important;
+    }
+
+    .text-wrap {
+        padding: 35px;
+    }
+
+    .form-group select {
+        width: 350px
+    }
+
+    .btn-clear {
+        width: 140px;
+        font-size: 18px;
+
+    }
+
+  /*   .form-group {
+        margin-left: 65px;
+    } */
+
+    .form-group input {
+        width: 350px;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer_menu {
+        padding-left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .bar_bottom {
+        height: 190px;
+        padding-top: 8px;
+    }
+
+    .footer_menu li {
+        padding: 8px 0px 0px 0px;
+    }
+
+    .button-clear {
+        width: 100%;
+    }
+ 
+    .container {
+        max-width: 760px !important;
+    } 
+
+    .radio input {
+        width: 15px;
+        margin-left: 30px;
+    }
+
+    .radio {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .radio label {
+        width: 35px;
+        margin: 10px !important;
+    }
     /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
 
     .footer_menu {
@@ -773,10 +855,10 @@ label {
         padding: 60px 0 50px 0;
     }
 
-.form-group .col-md-2{
-    font-size: 14px;
-    padding: 0px!important;
-}
+    .form-group .col-md-2 {
+        font-size: 14px;
+        padding: 0px !important;
+    }
 
     .text-wrap {
         padding: 35px;
@@ -832,8 +914,8 @@ label {
     }
 
     .radio {
-        text-align:left;
-        margin-left:20px;
+        text-align: left;
+        margin-left: 20px;
     }
 
     .radio label {
