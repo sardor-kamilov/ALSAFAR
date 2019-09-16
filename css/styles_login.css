@@ -572,7 +572,17 @@ label {
 
     /* +++++++++++++++++++++++++++++ HEADER End +++++++++++++++++++++++++++++++++ */
 
+    .form-cancel {
+        width: 100%;
+    }
 
+    .text-wrap {
+        margin-top: 50px;
+    }
+
+    .form-cancel {
+        height: 460px;
+    }
 
     /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
 
