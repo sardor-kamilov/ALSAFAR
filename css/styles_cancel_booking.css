@@ -281,8 +281,7 @@ button:hover {
 /*+++++++++++++++++++++++++++++++++++++++++ FORM-start +++++++++++++++++++++++++++++++++++++++++*/
 .text-wrap {
     text-align: center;
-    margin: 40px;
-
+    padding: 35px;
 }
 
 .text-wrap h1,
@@ -477,7 +476,7 @@ p {
 
     .text-wrap {
         padding:40px;
-        margin:0px;
+        padding: 35px;
     }
 
     /* +++++++++++++++++++++++++++++++++++ Body End+++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
