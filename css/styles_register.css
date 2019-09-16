@@ -572,6 +572,7 @@ label {
     .d-block {
         width: 960px;
     }
+
     /* +++++++++++++++++++++++++++++++++++ Header End +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
@@ -579,8 +580,8 @@ label {
 
 
     .text-wrap {
-        padding:40px;
-        margin:0px;
+        padding: 40px;
+        margin: 0px;
     }
 
     /* +++++++++++++++++++++++++++++++++++ Body End+++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -676,14 +677,17 @@ label {
 /*-----------------------640PX----------------------*/
 
 @media screen and (max-width: 640px) {
+
     /* +++++++++++++++++++++++++++++ HEADER Start +++++++++++++++++++++++++++++++++ */
     .banner_left {
         width: 235px;
         height: 530px;
     }
+
     .logo {
         height: 55px;
     }
+
     .wrapper {
         width: 500px;
     }
@@ -760,21 +764,22 @@ label {
 
 
     /* +++++++++++++++++++++++++++++++++++ Body Start +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    label {
-        width: 180px;
-    }
+
     .container {
         max-width: 100%;
     }
 
     .form-cancel {
-        width: 520px;
+        width: 580px;
         height: auto;
         margin: 15 auto 80px auto;
         padding: 60px 0 50px 0;
     }
 
-    
+.form-group .col-md-2{
+    font-size: 14px;
+    padding: 0px!important;
+}
 
     .text-wrap {
         margin: 0;
@@ -792,9 +797,9 @@ label {
     }
 
     .form-group {
-        margin-left: 35px;
+        margin-left: 65px;
     }
-    
+
     .form-group input {
         width: 350px;
         margin: 0 auto 20px auto;
@@ -821,10 +826,23 @@ label {
         width: 100%;
     }
 
-
     .container {
         max-width: 610px !important;
     }
 
+    .radio input {
+        width: 15px;
+        margin-left: 30px;
+    }
+
+    .radio {
+        text-align:left;
+        margin-left:20px;
+    }
+
+    .radio label {
+        width: 35px;
+        margin: 10px !important;
+    }
 
 }
