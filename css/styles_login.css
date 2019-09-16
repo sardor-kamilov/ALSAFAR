@@ -733,7 +733,7 @@ label {
 
     /*+++++++++++++++++++++ Footer-start +++++++++++++++++++++++*/
 
-    .footer_menu {
+/*     .footer_menu {
         padding-left: 0;
         height: 100%;
         flex-direction: column;
@@ -746,7 +746,7 @@ label {
 
     .footer_menu li {
         padding: 5px 0;
-    }
+    } */
 
     /*+++++++++++++++++++++ Footer-End +++++++++++++++++++++++*/
 }
